@@ -1,0 +1,21 @@
+{
+  "name": "pwa-compasso",
+  "version": "1.0.0",
+  "description": "Curso PWA Compasso",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/tipersonates/pwa-compasso.git"
+  },
+  "author": "PM",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/tipersonates/pwa-compasso#readme",
+  "devDependencies": {
+    "@dkh-dev/https-server": "^1.0.1",
+    "http-server": "^0.11.1",
+    "https-serve": "^1.0.0"
+  }
+}
