@@ -2,45 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93254f3b-84cc-4106-8b28-91312dc50615" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/167.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/172.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/196.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/216.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/55.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/58.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/80.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/87.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/88.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/android/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/android/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/android/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/android/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/icons/android/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +22,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Qn2RLnmhMJFe6nEZEY2ZSABMPc" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -104,7 +71,7 @@
       <updated>1568057389756</updated>
       <workItem from="1568057390847" duration="3982000" />
       <workItem from="1568118623467" duration="1399000" />
-      <workItem from="1568392035611" duration="6350000" />
+      <workItem from="1568392035611" duration="6431000" />
     </task>
     <servers />
   </component>
@@ -121,5 +88,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
