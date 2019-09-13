@@ -7,7 +7,10 @@
 
         // Se já tem permissão, de um oi!
         else if (Notification.permission === "granted") {
-            const notification = new Notification("Bem vindo de volta, notificação!");
+            const notification = new Notification( "Olá",{
+                body: "Bem vindo de volta, notificação!",
+                icon: "https://s3.amazonaws.com/gupy5/production/companies/417/career/410/images/logo.jpg"
+            });
         }
 
         // Senão, pedimos oermissao
@@ -15,7 +18,10 @@
             Notification.requestPermission().then(function (permission) {
                 // Se aceitar, exibimos
                 if (permission === "granted") {
-                    const notification = new Notification("Olá, notificação!");
+                    const notification = new Notification("Olá",{
+                        body: "Olá, notificação!",
+                        icon: "https://s3.amazonaws.com/gupy5/production/companies/417/career/410/images/logo.jpg"
+                    });
                 }
             });
         }
