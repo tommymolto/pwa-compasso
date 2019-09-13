@@ -12,25 +12,25 @@
 const inicioCache = 'pwa-compasso';
 const staticCacheName = inicioCache + '-v5.1';
 const urlsToCache = [
-    'styles/ud811.css',
-    'images/clear.png',
-    'images/cloudy.png',
-    'images/cloudy-scattered-showers.png',
-    'images/cloudy_s_sunny.png',
-    'images/dr-evil.gif',
-    'images/fog.png',
-    'images/ic_add_white_24px.svg',
-    'images/ic_refresh_white_24px.svg',
-    'images/partly-cloudy.png',
-    'images/rain.png',
-    'images/scattered-showers.png',
-    'images/sleet.png',
-    'images/snow.png',
-    'images/thunderstorm.png',
-    'images/wind.png',
-    'favicon.ico',
-    'scripts/app.js',
-    'scripts/localforage-1.4.0.js'
+    '/pwa-compasso/styles/ud811.css',
+    '/pwa-compasso/images/clear.png',
+    '/pwa-compasso/images/cloudy.png',
+    '/pwa-compasso/images/cloudy-scattered-showers.png',
+    '/pwa-compasso/images/cloudy_s_sunny.png',
+    '/pwa-compasso/images/dr-evil.gif',
+    '/pwa-compasso/images/fog.png',
+    '/pwa-compasso/images/ic_add_white_24px.svg',
+    '/pwa-compasso/images/ic_refresh_white_24px.svg',
+    '/pwa-compasso/images/partly-cloudy.png',
+    '/pwa-compasso/images/rain.png',
+    '/pwa-compasso/images/scattered-showers.png',
+    '/pwa-compasso/images/sleet.png',
+    '/pwa-compasso/images/snow.png',
+    '/pwa-compasso/images/thunderstorm.png',
+    '/pwa-compasso/images/wind.png',
+    '/pwa-compasso/favicon.ico',
+    '/pwa-compasso/scripts/app.js',
+    '/pwa-compasso/scripts/localforage-1.4.0.js'
 ];
 self.addEventListener('install', function(event) {
     event.waitUntil(
