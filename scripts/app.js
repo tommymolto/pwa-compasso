@@ -1,8 +1,9 @@
+const applicationServerPublicKey = 'BOwoebfI3cZWf1g0qfeWNVOJDYKRWWewAGWE_CGfC2lu2u6rLZkNBZiifZsoodXGeiqoRp6kSGhmgRUUfHeWXNo';
 
 (function() {
   'use strict';
 
-  var injectedForecast = {
+  const injectedForecast = {
     key: 'newyork',
     label: 'New York, NY',
     currently: {

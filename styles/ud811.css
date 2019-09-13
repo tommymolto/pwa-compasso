@@ -322,3 +322,11 @@ body {
   .weather-forecast .future .oneday .icon {
     width: 32px;
     height: 32px; } }
+
+.is-invisible {
+  opacity: 0;
+}
+
+.subscription-details {
+  transition: opacity 1s;
+}
