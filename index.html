@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Weather App for UD811">
   <link type="text/css" rel="stylesheet" href="./styles/ud811.css" />
+  <script src="./sw.js"></script>
   <title>Weather</title>
   <!-- Insert link to stylesheet here -->
 </head>
@@ -142,10 +143,13 @@
       <circle id="ud811Spinner" cx="16" cy="16" r="14" fill="none"></circle>
     </svg>
   </div>
-
-
+<div id="reload" style="display: none">
+<img src="/images/reload.jpg" width="50" height="50"/>
+</div>
   <!-- Insert link to app.js here -->
   <script src="./scripts/app.js"></script>
+  <script src="./scripts/swController.js"></script>
+
   <script src="./scripts/localforage-1.4.0.js"></script>
 
 
