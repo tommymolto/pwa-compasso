@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pwa-compasso.iml" filepath="$PROJECT_DIR$/.idea/pwa-compasso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/finalchallenge.iml" filepath="$PROJECT_DIR$/.idea/finalchallenge.iml" />
     </modules>
   </component>
 </project>
