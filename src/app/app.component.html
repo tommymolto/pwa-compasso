@@ -4,32 +4,32 @@
 
 
 <main class="main">
-  <div class="card cardTemplate weather-forecast" >
-    <div class="location">{{injectedForecast.label}}</div>
-    <div class="date">{{injectedForecast.currently.time}}</div>
-    <div class="description">{{injectedForecast.currently.summary}}</div>
+  <div *ngFor="let clima of climas" class="card cardTemplate weather-forecast">
+    <div class="location">{{clima.label}}</div>
+    <div class="date">{{ (clima.currently.time * 1000) | date }}</div>
+    <div class="description">{{clima.currently.summary}}</div>
     <div class="current">
       <div class="visual">
-        <div class="icon" [ngClass]="injectedForecast.currently.icon">{{ injectedForecast.currently.icon }}</div>
+        <div class="icon" [ngClass]="clima.currently.icon"></div>
         <div class="temperature">
-          <span class="value"> {{ injectedForecast.currently.temperature}}</span><span class="scale">°F</span>
+          <span class="value"> {{ clima.currently.temperature| number:'1.0-0'}}</span><span class="scale">°F</span>
         </div>
       </div>
       <div class="description">
         <div class="feels-like">
-          <span class="value">{{injectedForecast.currently.apparentTemperature}}</span><span class="scale">°F</span>
+          <span class="value">{{clima.currently.apparentTemperature| number:'1.0-0'}}</span><span class="scale">°F</span>
         </div>
-        <div class="precip">{{injectedForecast.currently.precipProbability}}</div>
-        <div class="humidity">{{injectedForecast.currently.humidity}}</div>
+        <div class="precip">{{clima.currently.precipProbability * 100| number:'1.0-0'}} %</div>
+        <div class="humidity">{{clima.currently.humidity * 100| number:'1.0-0'}} %</div>
         <div class="wind">
-          <span class="value">{{injectedForecast.currently.windSpeed}}</span>
+          <span class="value">{{clima.currently.windSpeed | number:'1.0-0'}}</span>
           <span class="scale">mph</span>
-          <span class="direction">{{injectedForecast.currently.windBearing}}</span>°
+          <span class="direction">{{clima.currently.windBearing}}</span>°
         </div>
       </div>
     </div>
     <div class="future">
-      <app-oneday *ngFor="let x of climas " [dados]="x"></app-oneday>
+      <app-oneday *ngFor="let x of clima.daily.data " [dados]="x"></app-oneday>
     </div>
   </div>
 </main>

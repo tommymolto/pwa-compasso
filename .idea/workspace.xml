@@ -2,93 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="153a5737-5b90-4ebe-8afa-5df1f86d93a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/api.service.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/oneday/oneday.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/oneday/oneday.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/oneday/oneday.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/oneday/oneday.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/shared/models/climas.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/clear.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/cloudy-scattered-showers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/cloudy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/cloudy_s_sunny.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/dr-evil.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/fog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/ic_add_white_24px.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/ic_refresh_white_24px.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/114.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/167.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/172.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/196.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/216.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/29.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/55.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/57.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/58.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/64.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/80.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/87.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/88.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/android/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/android/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/android/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/android/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/android/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/apple-120.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/apple-152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/apple-167.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/apple-180.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/apple-60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/apple-76.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/compasso-1024.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/icon-128x128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/icon-144x144.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/icon-152x152.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/icon-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/icon-256x256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/icon-36x36.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/icon-384x384.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/icon-48x48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/icon-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/icon-72x72.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/icon-96x96.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/icons/logo-Compasso.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/partly-cloudy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/rain.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/reload.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/scattered-showers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/sleet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/snow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/thunderstorm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/images/wind.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/header/header.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/oneday/oneday.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/oneday/oneday.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/oneday/oneday.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/oneday/oneday.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/oneday/oneday.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/oneday/oneday.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/shared/models/climas.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/shared/models/climas.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -181,7 +103,7 @@
       <updated>1568423169331</updated>
       <workItem from="1568423171503" duration="1692000" />
       <workItem from="1568661966858" duration="646000" />
-      <workItem from="1568739689568" duration="3843000" />
+      <workItem from="1568739689568" duration="6292000" />
     </task>
     <servers />
   </component>

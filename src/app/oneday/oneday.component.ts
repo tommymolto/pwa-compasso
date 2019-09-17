@@ -7,7 +7,7 @@ import {Climas} from '../shared/models/climas';
   styleUrls: ['./oneday.component.css']
 })
 export class OnedayComponent implements OnInit {
-  @Input() dados: Climas;
+  @Input() dados;
 
   constructor() { }
 

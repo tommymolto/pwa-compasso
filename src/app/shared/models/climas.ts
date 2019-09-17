@@ -1,15 +1,15 @@
 
 export interface Climas {
-  alerts: Alert[];
-  currently: Currently;
+  alerts?: Alert[];
+  currently?: Currently;
   daily: Daily;
-  flags: Flags;
-  hourly: Hourly;
-  latitude: number;
-  longitude: number;
-  minutely: Minutely;
-  offset: number;
-  timezone: string;
+  flags?: Flags;
+  hourly?: Hourly;
+  latitude?: number;
+  longitude?: number;
+  minutely?: Minutely;
+  offset?: number;
+  timezone?: string;
 }
 
 export interface Alert {
@@ -21,60 +21,60 @@ export interface Alert {
 }
 
 export interface Currently {
-  apparentTemperature: number;
-  cloudCover: number;
-  dewPoint: number;
-  humidity: number;
+  apparentTemperature?: number;
+  cloudCover?: number;
+  dewPoint?: number;
+  humidity?: number;
   icon: string;
-  nearestStormBearing: number;
-  nearestStormDistance: number;
-  ozone: number;
-  precipIntensity: number;
-  precipProbability: number;
-  pressure: number;
-  summary: string;
-  temperature: number;
-  time: number;
-  visibility: number;
-  windBearing: number;
-  windSpeed: number;
+  nearestStormBearing?: number;
+  nearestStormDistance?: number;
+  ozone?: number;
+  precipIntensity?: number;
+  precipProbability?: number;
+  pressure?: number;
+  summary?: string;
+  temperature?: number;
+  time?: number;
+  visibility?: number;
+  windBearing?: number;
+  windSpeed?: number;
 }
 
 export interface Datum {
-  apparentTemperatureMax: number;
-  apparentTemperatureMaxTime: number;
-  apparentTemperatureMin: number;
-  apparentTemperatureMinTime: number;
-  cloudCover: number;
-  dewPoint: number;
-  humidity: number;
+  apparentTemperatureMax?: number;
+  apparentTemperatureMaxTime?: number;
+  apparentTemperatureMin?: number;
+  apparentTemperatureMinTime?: number;
+  cloudCover?: number;
+  dewPoint?: number;
+  humidity?: number;
   icon: string;
-  moonPhase: number;
-  ozone: number;
-  precipIntensity: number;
-  precipIntensityMax: number;
-  precipProbability: number;
-  pressure: number;
-  summary: string;
-  sunriseTime: number;
-  sunsetTime: number;
-  temperatureMax: number;
-  temperatureMaxTime: number;
-  temperatureMin: number;
-  temperatureMinTime: number;
-  time: number;
-  visibility: number;
-  windBearing: number;
-  windSpeed: number;
+  moonPhase?: number;
+  ozone?: number;
+  precipIntensity?: number;
+  precipIntensityMax?: number;
+  precipProbability?: number;
+  pressure?: number;
+  summary?: string;
+  sunriseTime?: number;
+  sunsetTime?: number;
+  temperatureMax?: number;
+  temperatureMaxTime?: number;
+  temperatureMin?: number;
+  temperatureMinTime?: number;
+  time?: number;
+  visibility?: number;
+  windBearing?: number;
+  windSpeed?: number;
   precipIntensityMaxTime?: number;
-  precipType: string;
+  precipType?: string;
   precipAccumulation?: number;
 }
 
 export interface Daily {
-  data: Datum[];
-  icon: string;
-  summary: string;
+  data?: Datum[];
+  icon?: string;
+  summary?: string;
 }
 
 export interface Flags {

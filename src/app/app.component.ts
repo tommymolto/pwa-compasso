@@ -45,6 +45,7 @@ export class AppComponent {
 
   constructor(private api: ApiService){
     this.climas = [];
+    this.climas.push(this.injectedForecast);
     this.arClimas.forEach((url, index) => {
       this.api.getWeather(url).subscribe( (ret: Climas) => {
         this.climas.push(ret);

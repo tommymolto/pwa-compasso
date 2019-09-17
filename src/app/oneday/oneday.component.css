@@ -1,6 +1,21 @@
+.oneday{
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  text-align: center;
+}
+.oneday .temp-low {
+  color: #888;
+}
 .icon {
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  width: 64px;
+  height: 64px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .icon.clear-day {
   background-image: url('../../assets/images/clear.png');
 }
