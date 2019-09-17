@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  API_WEATHER : 'https://publicdata-weather.firebaseio.com/'
 };
 
 /*

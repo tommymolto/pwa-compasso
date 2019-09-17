@@ -1,0 +1,10 @@
+<div class="oneday" *ngIf="dados">
+  <div class="date">{{ dados.currently.time}}</div>
+  <div class="icon" [ngClass]="dados.currently.icon"> {{dados.currently.icon}}</div>
+  <div class="temp-high">
+    <span class="value">{{ dados.daily.data[0].apparentTemperatureMax }}</span>°
+  </div>
+  <div class="temp-low">
+    <span class="value"> {{ dados.daily.data[0].apparentTemperatureMin }}</span>°
+  </div>
+</div>

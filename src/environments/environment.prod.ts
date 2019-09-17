@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  API_WEATHER : 'https://publicdata-weather.firebaseio.com/'
+
 };
